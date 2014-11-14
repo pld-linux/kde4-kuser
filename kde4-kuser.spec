@@ -10,12 +10,12 @@ Summary:	KDE User management tool
 Summary(pl.UTF-8):	Administracja kontami dla KDE
 Summary(pt_BR.UTF-8):	Ferramenta para administração de usuários
 Name:		kde4-%{orgname}
-Version:	4.14.0
+Version:	4.14.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	b5d8a7b8005c8d96d55ed68e3f600de2
+# Source0-md5:	c3a5608b81a1a15f0bdbb2d2c3a39d25
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
