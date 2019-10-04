@@ -1,0 +1,10 @@
+--- kuser-4.14.3/CMakeLists.txt~	2013-08-04 06:22:20.000000000 +0200
++++ kuser-4.14.3/CMakeLists.txt	2019-10-04 10:18:39.902210587 +0200
+@@ -4,6 +4,7 @@
+ find_package(KDE4 REQUIRED)
+ include (KDE4Defaults)
+ include (MacroLibrary)
++include(CheckIncludeFiles)
+ 
+ add_definitions (${QT_DEFINITIONS} ${KDE4_DEFINITIONS})
+ add_definitions( -DQT_NO_CAST_FROM_ASCII )
