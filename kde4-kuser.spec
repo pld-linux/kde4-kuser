@@ -4,7 +4,6 @@
 %define		orgname		kuser
 %define		qtver		4.8.1
 
-%include	/usr/lib/rpm/macros.perl
 
 Summary:	KDE User management tool
 Summary(pl.UTF-8):	Administracja kontami dla KDE
